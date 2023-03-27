@@ -2,6 +2,7 @@
 // 也可以从其他文件导入
 import HelloWorld from "../components/HelloWorld.vue";
 import About from "../components/About.vue";
+import Test from "../views/Test.vue";
 
 // 2. 定义一些路由
 // 每个路由都需要映射到一个组件。
@@ -9,4 +10,5 @@ import About from "../components/About.vue";
 export const routes = [
     { path: '/', component: HelloWorld },
     { path: '/about', component: About },
+    {path: '/test', component: Test}
 ]
