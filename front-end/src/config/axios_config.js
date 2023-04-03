@@ -1,0 +1,1 @@
+export const AXIOS_URL = "http://localhost:5000/predict"
