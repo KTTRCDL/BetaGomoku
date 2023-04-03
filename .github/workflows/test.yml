@@ -33,5 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd ./front-end/
+          npm install
           npm run build
           npm run preview
